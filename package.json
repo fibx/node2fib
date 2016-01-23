@@ -1,0 +1,32 @@
+{
+  "name": "node2fib",
+  "version": "1.0.0",
+  "description": "transform the nodejs code to fibjs code",
+  "main": "null",
+  "bin": {
+    "node2fib": "fib.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fibx/node2fib.git"
+  },
+  "keywords": [
+    "node2fib",
+    "fibx",
+    "fibjs",
+    "nodejs",
+    "node"
+  ],
+  "author": "Rube",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fibx/node2fib/issues"
+  },
+  "homepage": "https://github.com/fibx/node2fib#readme"
+}
