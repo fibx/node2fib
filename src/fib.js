@@ -14,5 +14,6 @@ var nodeEnv = new vm.SandBox({}, function() {
     },
     'node_env');
 
+nodeEnv.require('../lib/global.js');
 nodeEnv.run(mainPath);
 
