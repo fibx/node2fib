@@ -3,7 +3,8 @@ var m = [
     'util',
     'os',
     'process',
-    'process_node'
+    'process_node',
+    'assert'
 ];
 
 var mo = {};
