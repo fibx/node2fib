@@ -8,7 +8,10 @@ def env():
 def pid():
 		print os.getpid()
 
-operator = {'env':env,'pid':pid}
+def platform():
+		print sys.platform;
+
+operator = {'env':env,'pid':pid,'platform':platform}
 
 operator.get(sys.argv[1])()
 
