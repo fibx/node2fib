@@ -5,7 +5,8 @@ var m = [
     'process',
     'process_node',
     'assert',
-    'fs'
+    'fs',
+    'path'
 ];
 
 var mo = {};
