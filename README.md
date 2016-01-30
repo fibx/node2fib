@@ -2,6 +2,10 @@
 
 ###node2fib 致力于能将 nodejs 代码能够在 fibjs 运行		
 
+##过程							
+
+* 先进行 js 层面的兼容					
+* 再逐步原生向此靠拢			
 
 ##结构
 
@@ -24,36 +28,36 @@
 	
 ##实现进度
 
-| 模块名            | js 兼容程度        | 原生兼容程度  |
-| -----------------|:-----------------:| -----------:|
-| assert					 | 							     |						 | 
-| buffer					 |									 |						 |
-| child_process		 |									 |						 |
-| cluster					 |									 |						 |
-| console					 |									 |						 |
-| crypto				   |									 |						 |
-| dgram					   |									 |						 |
-| dns						   |									 |						 |
-| domain				   |									 |						 |
-| events					 |									 |						 |
-| fs				       |									 |						 |
-| http				     |									 |						 |
-| https				     |									 |						 |
-| module					 |									 |						 |
-| net 						 |									 |						 |
-| os				       |									 |						 |
-| path					   |								   |						 |
-| punycode				 |									 |						 |
-| querystring			 |									 |						 |
-| readline				 |									 |						 |
-| repl				     |									 |						 |
-| stream					 |									 |						 |
-| stringdecoder		 |								   |						 |
-| timers				   |									 |						 |
-| tls			         |									 |						 |
-| tty				       |								   |						 |
-| url				       |									 |						 |
-| util					   |									 |						 |
-| v8				       |									 |						 |
-| vm					     |									 |						 |
-| zlib						 |									 |						 |
+| 模块名            | js 兼容程度        | 原生兼容程度   |
+| -----------------|:-----------------:|:------------:|
+| assert					 | 		完全兼容		     |	 待实现		  | 
+| buffer					 |		部分兼容				 |完全兼容(待发布)|
+| child_process		 |									 |						  |
+| cluster					 |									 |						  |
+| console					 |									 |						  |
+| crypto				   |									 |						  |
+| dgram					   |									 |						  |
+| dns						   |									 |						  |
+| domain				   |									 |						  |
+| events					 |									 |						  |
+| fs				       |									 |						  |
+| http				     |									 |						  |
+| https				     |									 |						  |
+| module					 |									 |						  |
+| net 						 |									 |						  |
+| os				       |		完全兼容				 |	 待实现		  |
+| path					   |								   |						  |
+| punycode				 |									 |						  |
+| querystring			 |									 |						  |
+| readline				 |									 |						  |
+| repl				     |									 |						  |
+| stream					 |									 |						  |
+| stringdecoder		 |								   |						  |
+| timers				   |									 |						  |
+| tls			         |									 |						  |
+| tty				       |								   |						  |
+| url				       |									 |						  |
+| util					   |									 |						  |
+| v8				       |									 |						  |
+| vm					     |									 |						  |
+| zlib						 |									 |						  |
