@@ -6,7 +6,8 @@ var m = [
     'process_node',
     'assert',
     'fs',
-    'path'
+    'path',
+    'events'
 ];
 
 var mo = {};
