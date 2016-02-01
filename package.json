@@ -4,7 +4,7 @@
   "description": "transform the nodejs code to fibjs code",
   "main": "null",
   "bin": {
-    "node2fib": "fib.js"
+    "node2fib": "./bin/fib.js"
   },
   "directories": {
     "test": "test"

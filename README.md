@@ -34,7 +34,7 @@
 | buffer					 |		部分兼容				 |完全兼容(待发布)|
 | child_process		 |									 |						  |
 | cluster					 |									 |						  |
-| console					 |									 |						  |
+| console					 |		完全兼容				 |	 待兼容		  |
 | crypto				   |									 |						  |
 | dgram					   |									 |						  |
 | dns						   |									 |						  |

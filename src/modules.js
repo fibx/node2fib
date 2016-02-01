@@ -7,7 +7,9 @@ var m = [
     'assert',
     'fs',
     'path',
-    'events'
+    'events',
+    'domain',
+    'console'
 ];
 
 var mo = {};
