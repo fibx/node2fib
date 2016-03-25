@@ -9,7 +9,8 @@ var m = [
     'path',
     'events',
     'domain',
-    'console'
+    'console',
+    'net'
 ];
 
 var mo = {};
